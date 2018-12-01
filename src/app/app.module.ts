@@ -18,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { LocalNotifications } from '@ionic-native/local-notifications';
+import { EmailComposer } from '@ionic-native/email-composer';
 import { DishProvider } from '../providers/dish/dish';
 import { DishdetailPage } from '../pages/dishdetail/dishdetail';
 import { LeaderProvider } from '../providers/leader/leader';
@@ -65,6 +66,7 @@ import { FavoriteProvider } from '../providers/favorite/favorite';
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     LocalNotifications,
+    EmailComposer,
     DishProvider,
     LeaderProvider,
     PromotionProvider,
