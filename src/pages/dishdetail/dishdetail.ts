@@ -77,7 +77,7 @@ export class DishdetailPage {
           }
         },
         {
-          text: 'Share via Facebook'.
+          text: 'Share via Facebook',
           handler: () => {
             this.socialSharing.shareViaFacebook(
               this.dish.name + ' -- ' + this.dish.description,
@@ -87,7 +87,7 @@ export class DishdetailPage {
           }
         },
         {
-          text: 'Share via Twitter'.
+          text: 'Share via Twitter',
           handler: () => {
             this.socialSharing.shareViaTwitter(
               this.dish.name + ' -- ' + this.dish.description,
