@@ -23,6 +23,7 @@ import { EmailComposer } from '@ionic-native/email-composer';
 import { SocialSharing } from '@ionic-native/social-sharing';
 import { Network } from '@ionic-native/network';
 import { Camera } from '@ionic-native/camera';
+import { CallNumber } from '@ionic-native/call-number';
 import { DishProvider } from '../providers/dish/dish';
 import { DishdetailPage } from '../pages/dishdetail/dishdetail';
 import { LeaderProvider } from '../providers/leader/leader';
@@ -76,6 +77,7 @@ import { FavoriteProvider } from '../providers/favorite/favorite';
     SocialSharing,
     Network,
     Camera,
+    CallNumber,
     DishProvider,
     LeaderProvider,
     PromotionProvider,
